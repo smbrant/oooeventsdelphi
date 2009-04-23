@@ -1,8 +1,8 @@
-An example of how to capture OpenOffice.org events with Delphi.
-
-Compiled with Delphi7.
+An example of how to capture OpenOffice.org events using Delphi.
 
 How to use:
+- Register the executable in Windows with
+  $ oooEvents /regserver
 - Open a document in ooo
 - Run this program and click in the button 'Connect to current document'
 - Make changes to the ooo document and see the events being captured.
